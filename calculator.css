@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background: linear-gradient(to right ,#e66465, #9198e5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    padding: 29px;
+   text-align: center;
+   color: white;
+   line-height: 2rem;
+}
+
+.container{
+    max-width: 280px;
+    /* width: calc(100%-10px); */
+    /* min-width: 280px; */
+    /* margin: 60px auto; */
+    /* box-shadow: 3px 3px black, -1em 0 .4em #ccc; */
+    box-shadow: 3px 3px 9px black;
+  margin: 20px auto;
+ 
+   
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.number-input{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    font-size: 3rem;
+    text-align: end;
+    border: none;
+    outline: none;
+}
+
+.buttons-grid{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+}
+
+.button{
+    background-color: #ccc;
+    border: 1px solid black;
+    padding-block: 12px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+  
+}
+.button:hover{
+    background-color: white;
+  
+   
+  
+}
+
+.orange{
+    background-color: rgb(240,184,0);
+}
+
+.span-3{
+    grid-column: span 3;
+}
+.span-2{
+    grid-column: span 2;
+}
+
+.info{
+    /* padding: 29px; */
+    text-align: center;
+    color: white;
+    line-height: 2rem;
+
+}
